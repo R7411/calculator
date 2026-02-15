@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <title>Glass Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" type="text" readonly>
+        <div class="keys" id="boxS">
+            <button onclick="apprendToDisplay('+')" class="operator-btn" id="boxO">+</button>
+            <button onclick="apprendToDisplay(7)" id="box7">7</button>
+            <button onclick="apprendToDisplay(8)"  id="box8">8</button>
+            <button onclick="apprendToDisplay(9)" id="box9">9</button>
+            <button onclick="apprendToDisplay('-')" class="operator-btn" id="boxO1">-</button>
+            <button onclick="apprendToDisplay(4)" id="box4">4</button>
+            <button onclick="apprendToDisplay(5)" id="box5">5</button>
+            <button onclick="apprendToDisplay(6)" id="box6">6</button>
+            <button onclick="apprendToDisplay('*')" class="operator-btn" id="boxO2">*</button>
+            <button onclick="apprendToDisplay(1)" id="box1">1</button>
+            <button onclick="apprendToDisplay(2)" id="box2">2</button>
+            <button onclick="apprendToDisplay(3)" id="box3">3</button>
+            <button onclick="apprendToDisplay('/')" class="operator-btn" id="boxO3">/</button>
+            <button onclick="apprendToDisplay(0)" id="box0">0</button>
+            <button onclick="apprendToDisplay('.')" id="box.">.</button>
+            <button onclick="calculate()" id="eval">=</button>
+            <button onclick="clearDisplay()" class="operator-btn" id="error">C</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
