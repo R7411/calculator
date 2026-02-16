@@ -39,7 +39,7 @@ body{
 }
 button {
     color: white;
-    width: 150%
+    width: 150px;
     height: 100%;
     border-radius: 50%;
     border: none;
@@ -70,6 +70,7 @@ button :active {
     background-color: hsla(35, 100%, 75%, 0.24);
 
 }
+
 
 
 
