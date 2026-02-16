@@ -41,7 +41,7 @@ button {
     color: white;
     width: 150px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 50px;
     border: none;
     font-size: 3rem;
     filter:drop-shadow(10px 10px 10px rgba(29, 29, 29, 0.452));
@@ -70,6 +70,7 @@ button :active {
     background-color: hsla(35, 100%, 75%, 0.24);
 
 }
+
 
 
 
