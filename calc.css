@@ -22,7 +22,7 @@ body{
     
 }
 #display{
-    width: 100%;
+    width: 100px;
     padding: 20px;
     font-size:5em;
     text-align: left;
@@ -70,6 +70,7 @@ button :active {
     background-color: hsla(35, 100%, 75%, 0.24);
 
 }
+
 
 
 
