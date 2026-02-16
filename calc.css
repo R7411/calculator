@@ -16,7 +16,7 @@ body{
     border-left: solid 1px rgba(255, 255, 255, 0.4);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
     border-radius:15%;
-    max-width: 500%;
+    max-width: 500px;
     overflow: hidden;
 
     
@@ -70,5 +70,6 @@ button :active {
     background-color: hsla(35, 100%, 75%, 0.24);
 
 }
+
 
 
