@@ -40,8 +40,8 @@ body{
 }
 button {
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    aspect-radius: 1:1;
     border-radius: 50px;
     border: none;
     font-size: 3rem;
@@ -71,6 +71,7 @@ button :active {
     background-color: hsla(35, 100%, 75%, 0.24);
 
 }
+
 
 
 
