@@ -3,7 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(skyphoto.jpg);
     background-size: cover;
     background-position: center;
@@ -71,6 +71,7 @@ button :active {
     background-color: hsla(35, 100%, 75%, 0.24);
 
 }
+
 
 
 
