@@ -21,7 +21,7 @@ body{
     overflow: hidden;
 }
 #display{
-    width: 200%;
+    width: 100%;
     padding: 20px;
     font-size:5em;
     text-align: left;
